@@ -7,17 +7,18 @@
  *
  * Return: Always 0 (Success)
  */
-int main() {
-    char letter = 'a'; // Start with the first lowercase letter 'a'
+int main(void) 
+{
+    char letter = 'a'; 
 
     while (letter <= 'z') {
         if (letter != 'e' && letter != 'q') {
-            putchar(letter); // Print the letter if it's not 'e' or 'q'
+            putchar(letter); 
         }
 
-        letter++; // Move to the next letter
+        letter++; 
     }
 
-    putchar('\n'); // Print a newline character after all letters
+    putchar('\n'); 
     return 0;
 }
