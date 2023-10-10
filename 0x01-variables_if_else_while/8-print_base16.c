@@ -8,14 +8,10 @@
 int main(void)
 {
 	char letter;
-
-	/* Print numbers 0-9 */
 	for (letter = '0'; letter <= '9'; letter++)
 	{
 		putchar(letter);
 	}
-
-	/* Print lowercase hexadecimal characters a-f */
 	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 		putchar(letter);
