@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	Int a;
+	int a;
 	unsigned long int b, c, next, sum;
 
 	b = 1;
@@ -18,7 +18,7 @@ int main(void)
 	{
 		if (b < 4000000 && (b % 2) == 0)
 		{
-			sum = sum + b
+			sum = sum + b;
 		}
 		next =b + c;
 		b = c;
