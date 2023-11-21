@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-    list_t *head;
-    list_t *new;
-    list_t hello = {8, NULL};
+    listint_t *head;
+    listint_t *new;
+    listint_t hello = {8, NULL};
     size_t n;
 
     head = &hello;
@@ -22,8 +22,8 @@ int main(void)
         printf("Error\n");
         return (1);
     }
-    new-> n = 9;
-    new-> next = head;
+    new->n = 9;
+    new->next = head;
     head = new;
     n = print_listint(head);
     printf("-> %lu elements\n", n);
